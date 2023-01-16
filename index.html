@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Java Project</title>
+  <style>
+    body{
+      background-color: black;
+      color: white;
+      text-align: center;
+      margin: 4px 6px;
+      padding: 7px;
+    }
+    h3{
+      border: 5px solid red;
+      border-style: dotted;
+    border-width: 2px;
+    margin-left: 445px;
+    margin-right: 450px;
+    
+    }
+  </style>
+</head>
+<body>
+  <h1>SIMPLE JAVASCRIPT DECLARATION</h1>
+  <!-- Answer 1 -->
+  <h3>ALert to declare age</h3>
+  <p id="age"></p>
+  <button onclick="myFunction()">Indicate </button>
+  <!-- Answer 2 -->
+  <h3>Single Line Values</h3>
+  <p id="single"></p>
+  <!-- Answer 3 -->
+  <h3>Alert to declare values</h3>
+  <p id="add"></p>
+  <button onclick = "myFunction2()">Addition</button>
+  <script>
+    // Result 1
+    function myFunction(){
+      alert("I am 17 years old")
+    }
+    document.getElementById("age").innerHTML = "How old are you"
+    // Results 2
+    var firstName = "John"
+    var lastName = "Doe"
+    var age = "35"
+
+    document.getElementById("single").innerHTML = firstName +lastName + age;
+    // Results 3
+    var x = 5;
+    var y = 10;
+    var z = x + y
+    function myFunction2(){
+      alert(document.getElementById("add").innerHTML = "The total is :" +z)
+    }
+
+    
+
+  </script>
+</body>
+</html>
